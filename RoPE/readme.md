@@ -58,3 +58,4 @@ By employing RoPE, the Transformer model can effectively understand the order an
 - [RoFormer: Enhanced Transformer with Rotary Position Embedding](https://arxiv.org/abs/2104.09864)
 - [LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/abs/2302.13971)
 - [Mistral: Faster and Better LLMs](https://mistral.ai/news/mistral-7b/)
+- YT Tutorial Link : https://www.youtube.com/watch?v=Kv90HQY9lZA
