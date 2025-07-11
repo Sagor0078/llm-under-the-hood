@@ -1,9 +1,11 @@
 
+- We offer no explanation as to why these architectures seem to work; we attribute their success, as all else, to divine benevolence
+
 ### Swish Gated Linear Unit
 
 SwiGLU is a sophisticated activation mechanism primarily used in the Feed-Forward Networks (FFNs) of modern Transformer models. It's a key component in architectures like LLaMA and Mistral, contributing significantly to their performance. Its theoretical foundation lies in combining the principles of gating (from GLU) with the desirable properties of the Swish (or SiLU) activation function.
 
-1. The Need for Gating in FFNs
+### The Need for Gating in FFNs
 
 Traditional FFNs in Transformers typically consist of two linear layers with a non-linear activation (like ReLU or GELU) in between. While effective, this structure applies the same non-linearity uniformly across all features.
 
