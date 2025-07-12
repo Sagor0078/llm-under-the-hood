@@ -1,0 +1,3 @@
+- [Theoritical Concept](https://g.co/gemini/share/7c80baaa990f)
+- [YT Tutorial](https://www.youtube.com/watch?v=IR8PqmGTGyw&t=275s&pp=ygUTQXR0ZW50aW9uIE1lY2hhbmlzbQ)
+- [Attention in Transformers by 3Blue1Brown](https://www.youtube.com/watch?v=eMlx5fFNoYc&t=1092s&pp=ygURM2IxYiB0cmFuc2Zvcm1lcnM)
