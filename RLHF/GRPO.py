@@ -5,7 +5,7 @@ from torch.distributions import Categorical
 import numpy as np
 import textwrap
 
-# --- 1. Simulate LLM Policy (The Generator) ---
+# Simulate LLM Policy (The Generator) 
 class LLMPolicy(nn.Module):
     """
     A very simplified LLM policy network.
@@ -56,7 +56,7 @@ class LLMPolicy(nn.Module):
         
         return generated_tokens, torch.stack(log_probs_sequence) # Return sequence of log_probs
 
-# --- 2. Simulate Reward Model ---
+# Simulate Reward Model 
 class RewardModel(nn.Module):
     """
     A very simplified Reward Model.
@@ -76,7 +76,7 @@ class RewardModel(nn.Module):
         x = torch.relu(self.fc2(x))
         return self.fc3(x) # Scalar reward
 
-# --- 3. GRPO Update Function ---
+# GRPO Update Function 
 def grpo_update(policy_net, reward_model, optimizer_policy,
                 prompts_batch, num_responses_per_prompt,
                 clip_epsilon, ppo_epochs, mini_batch_size, temperature):
@@ -218,7 +218,7 @@ def grpo_update(policy_net, reward_model, optimizer_policy,
             # This means `all_log_probs_flat` should contain sum of log_probs for each generated sequence.
             # And `all_advantages_flat` should contain the group advantage for each sequence.
 
-    # --- Refined GRPO Update Function (Sequence-level) ---
+    # Refined GRPO Update Function (Sequence-level) 
     all_seq_log_probs = [] # Sum of log_probs for each generated sequence
     all_seq_advantages = [] # Group advantage for each generated sequence
     
@@ -386,7 +386,7 @@ def grpo_update(policy_net, reward_model, optimizer_policy,
             # For each token in each sequence, we will store (prompt_embedding, token_id, old_log_prob, advantage_for_sequence).
             # This allows a token-level PPO update.
 
-    # --- Refined Data Collection for GRPO (Token-level PPO Update) ---
+    # Refined Data Collection for GRPO (Token-level PPO Update) 
     all_token_states = [] # (prompt_embedding, previous_tokens_embedding)
     all_token_actions = [] # token_id
     all_token_old_log_probs = [] # log_prob of token_id

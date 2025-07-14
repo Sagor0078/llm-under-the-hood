@@ -4,7 +4,7 @@ import torch.optim as optim
 from torch.distributions import Categorical
 import numpy as np
 
-# --- 1. Define Policy and Value Networks ---
+# Define Policy and Value Networks 
 class PolicyNetwork(nn.Module):
     """
     Represents the 'actor' in PPO. Takes a state and outputs action probabilities.
@@ -39,7 +39,7 @@ class ValueNetwork(nn.Module):
         x = torch.relu(self.fc2(x))
         return self.fc3(x)
 
-# --- 2. Generalized Advantage Estimation (GAE) Function ---
+# Generalized Advantage Estimation (GAE) Function
 def compute_gae(rewards, values, dones, gamma, lambda_):
     """
     Computes Generalized Advantage Estimation (GAE).
@@ -71,7 +71,7 @@ def compute_gae(rewards, values, dones, gamma, lambda_):
 
     return torch.tensor(advantages, dtype=torch.float32)
 
-# --- 3. PPO Update Function ---
+# PPO Update Function 
 def ppo_update(policy_net, value_net, optimizer_policy, optimizer_value,
                states, actions, old_log_probs, returns, advantages,
                clip_epsilon, ppo_epochs, mini_batch_size):
@@ -129,7 +129,7 @@ def ppo_update(policy_net, value_net, optimizer_policy, optimizer_value,
             value_loss.backward()
             optimizer_value.step()
 
-# --- 4. Simulation Environment (Dummy for demonstration) ---
+# Simulation Environment (Dummy for demonstration) 
 # In a real LLM setting, this would be the LLM generating text and a Reward Model scoring it.
 class DummyEnvironment:
     def __init__(self, obs_dim, action_dim):
@@ -154,7 +154,7 @@ class DummyEnvironment:
         self.current_state = next_state
         return next_state, reward, done, {} # obs, reward, done, info
 
-# --- Main Training Loop for PPO ---
+# Main Training Loop for PPO 
 if __name__ == "__main__":
     import torch.nn.functional as F # Ensure F is imported for relu and softmax
 
