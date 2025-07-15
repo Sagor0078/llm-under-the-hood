@@ -16,3 +16,13 @@
 | [RoPE](https://github.com/Sagor0078/llm-under-the-hood/tree/main/RoPE)                | `main.py`, `readme.md`, `rope.png`                | Rotary Positional Embedding                |
 | [SwiGLU](https://github.com/Sagor0078/llm-under-the-hood/tree/main/SwiGLU)              | `main.py`, `readme.md`                             | SwiGLU activation function                 |
 | [Tokenizer](https://github.com/Sagor0078/llm-under-the-hood/tree/main/Tokenizer)         | `main.py`, `readme.md`                             | Tokenization process in LLMs               |
+
+
+## External Learning Resources
+
+| Resource | Link | Description |
+|---------|------|-------------|
+| Stanford CS336 – LLMs From Scratch | [🔗 CS336 Course Page](https://web.stanford.edu/class/cs336/) | Advanced graduate course on large language models from scratch |
+| Umar Jamil’s LLM Tutorial Series | [YouTube Playlist](https://www.youtube.com/@umarjamilai/featured) | Step-by-step LLM implementation tutorials |
+| Andrej Karpathy – GPT From Scratch | [YouTube Video](https://www.youtube.com/watch?v=kCc8FmEb1nY) | Karpathy's famous transformer explainer video |
+
