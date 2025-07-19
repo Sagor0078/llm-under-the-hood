@@ -101,7 +101,7 @@ class DummyQLoRALLM(nn.Module):
             x = layer(x)
         return self.lm_head(x)
 
-# --- 4. Training Simulation ---
+# Training Simulation ---
 def train_model(model, optimizer, data_loader, epochs=5):
     model.train()
     criterion = nn.CrossEntropyLoss()
