@@ -1,21 +1,22 @@
 
 
-# LLM Under The Hood – Directory Overview
+# LLM Under The Hood - Overview
 
-| Module/Folder         | Files Included                                     | Description                                |
-|-----------------------|----------------------------------------------------|--------------------------------------------|
-| [Attention_Mechanism](https://github.com/Sagor0078/llm-under-the-hood/tree/main/Attention_Mechanism) | `main.py`, `readme.md`                             | Code and explanation of attention mechanisms |
-| [KV_Cache](https://github.com/Sagor0078/llm-under-the-hood/tree/main/KV_Cache)            | `main.py`, `readme.md`                             | Key-Value caching in Transformers          |
-| [LICENSE](https://github.com/Sagor0078/llm-under-the-hood/blob/main/LICENSE)             | `LICENSE`                                          | License file for the repository            |
-| [optimizing_llm_inference](https://github.com/Sagor0078/llm-under-the-hood/tree/main/optimizing_llm_inference) | *(File or folder not expanded)*               | Optimization strategies (details unknown)  |
-| [PromptTechnique](https://github.com/Sagor0078/llm-under-the-hood/tree/main/PromptTechnique)     | `main.py`, `readme.md`                             | Prompt engineering techniques              |
-| [Quantization](https://github.com/Sagor0078/llm-under-the-hood/tree/main/Quantization)        | `main.py`, `readme.md`                             | Model quantization techniques              |
-| [README.md](https://github.com/Sagor0078/llm-under-the-hood/blob/main/README.md)           | `README.md`                                        | Main project overview                      |
-| [RLHF](https://github.com/Sagor0078/llm-under-the-hood/tree/main/RLHF)                | `GRPO.py`, `PPO.py`, `readme.md`                   | Reinforcement Learning from Human Feedback |
-| [RMSNorm](https://github.com/Sagor0078/llm-under-the-hood/tree/main/RMSNorm)             | `main.py`, `readme.md`, images                     | RMS Normalization with visuals             |
-| [RoPE](https://github.com/Sagor0078/llm-under-the-hood/tree/main/RoPE)                | `main.py`, `readme.md`, `rope.png`                | Rotary Positional Embedding                |
-| [SwiGLU](https://github.com/Sagor0078/llm-under-the-hood/tree/main/SwiGLU)              | `main.py`, `readme.md`                             | SwiGLU activation function                 |
-| [Tokenizer](https://github.com/Sagor0078/llm-under-the-hood/tree/main/Tokenizer)         | `main.py`, `readme.md`                             | Tokenization process in LLMs               |
+| Module/Folder         | Files Included                                                                 | Description                                                  |
+|-----------------------|----------------------------------------------------------------------------------|--------------------------------------------------------------|
+| [Attention_Mechanism](https://github.com/Sagor0078/llm-under-the-hood/tree/main/Attention_Mechanism) | `main.py`, `PagedAttention.py`, `Sliding_window.py`, `readme.md` | Core attention mechanisms including sliding window and paged attention |
+| [KV_Cache](https://github.com/Sagor0078/llm-under-the-hood/tree/main/KV_Cache)                         | `main.py`, `readme.md`                                      | Key-Value caching strategies in Transformers                |
+| [optimizing_llm_inference](https://github.com/Sagor0078/llm-under-the-hood/tree/main/optimizing_llm_inference) | `batching.py`, `speculative_decoding.py`, `readme.md`        | Techniques for efficient inference (e.g., batching, speculative decoding) |
+| [PEFT](https://github.com/Sagor0078/llm-under-the-hood/tree/main/PEFT)                                 | `LoRA.py`, `readme.md`                                       | Parameter-Efficient Fine-Tuning (LoRA)                      |
+| [PromptTechnique](https://github.com/Sagor0078/llm-under-the-hood/tree/main/PromptTechnique)           | `main.py`, `readme.md`                                      | Prompting strategies and techniques                        |
+| [Quantization](https://github.com/Sagor0078/llm-under-the-hood/tree/main/Quantization)                 | `main.py`, `readme.md`                                      | Model quantization for memory-efficient inference           |
+| [RLHF](https://github.com/Sagor0078/llm-under-the-hood/tree/main/RLHF)                                 | `GRPO.py`, `PPO.py`, `readme.md`                            | Reinforcement Learning from Human Feedback (GRPO, PPO)     |
+| [RMSNorm](https://github.com/Sagor0078/llm-under-the-hood/tree/main/RMSNorm)                           | `main.py`, `readme.md`, `RMSNorm.png`, `rmenorm_formula.png`| Root Mean Square Layer Normalization                        |
+| [RoPE](https://github.com/Sagor0078/llm-under-the-hood/tree/main/RoPE)                                 | `main.py`, `readme.md`, `rope.png`                          | Rotary Positional Embeddings                               |
+| [SwiGLU](https://github.com/Sagor0078/llm-under-the-hood/tree/main/SwiGLU)                             | `main.py`, `readme.md`                                      | SwiGLU activation function                                 |
+| [Tokenizer](https://github.com/Sagor0078/llm-under-the-hood/tree/main/Tokenizer)                       | `main.py`, `readme.md`                                      | Tokenization logic and concepts                           |
+| [LICENSE](https://github.com/Sagor0078/llm-under-the-hood/blob/main/LICENSE)                           | `LICENSE`                                                    | Open source license (MIT)                                  |
+| [README.md](https://github.com/Sagor0078/llm-under-the-hood/blob/main/README.md)                       | `README.md`                                                  | Main project overview and navigation                        |
 
 
 ## External Learning Resources
