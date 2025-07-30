@@ -20,6 +20,7 @@ GSPO (Group Sequence Policy Optimization)
 
 ### Importance Ratio Definition
 GRPO
+
 ```math 
 
 Token-level importance ratio:
