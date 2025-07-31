@@ -8,6 +8,6 @@
 
 - Weight Decay Step: A small portion of the weight is simply decayed away. This is a simple subtraction of learning_rate * weight_decay * weight from the parameter.
 
-This decoupled approach makes the weight decay a form of L2 regularization that behaves correctly with adaptive optimizers, leading to better model generalization and training stability.
+This decoupled approach makes the weight decay a form of L2 regularization that behaves correctly with adaptive optimizers, leading to better model generalization and training stability.ea
 
 - [AdamW tutorial](https://www.datacamp.com/tutorial/adamw-optimizer-in-pytorch)
