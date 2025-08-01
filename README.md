@@ -18,9 +18,10 @@
 | [Tokenizer](https://github.com/Sagor0078/llm-under-the-hood/tree/main/Tokenizer)                       | `main.py`, `readme.md`                                      | Tokenization logic and concepts                            |
 | [LICENSE](https://github.com/Sagor0078/llm-under-the-hood/blob/main/LICENSE)                           | `LICENSE`                                                    | Open source license (MIT)                                  |
 | [README.md](https://github.com/Sagor0078/llm-under-the-hood/blob/main/README.md)                       | `README.md`                                                  | Main project overview and navigation                       |
-               |
+               
 
 > I'm still learning more advanced topics like inference strategies (Distillation, Compilation, Sharding, etc.) coming soon!
+> [My profile on LeetGPU](https://leetgpu.com/profile?display_name=Sagor0078)
 
 ## External Learning Resources
 
