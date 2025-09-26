@@ -20,3 +20,4 @@ In essence, attention sinks are a learned behavior that provides a stabilization
 Here's a video that explains how this phenomenon makes LLMs usable for practical applications.
 
 - [Attention Sink: The Fluke That Made LLMs Actually Usable](https://www.youtube.com/watch?v=Y8Tj9kq4iWY)
+- [Attention Sink](https://github.com/sail-sg/Attention-Sink)
