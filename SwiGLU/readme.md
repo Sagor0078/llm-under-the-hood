@@ -53,4 +53,4 @@ In essence, SwiGLU provides a more flexible and powerful way to introduce non-li
 ### References
 
 - [GLU Variants Improve Transformer](https://arxiv.org/abs/2002.05202)
-- [LeetGPU Problem Link](https://leetgpu.com/challenges/swish-gated-linear-unit)
+- [LeetGPU Problem Link](https://leetgpu.com/challenges/swish-gated-linear-uni
