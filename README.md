@@ -21,7 +21,10 @@
                
 
 > I'm still learning more advanced topics like inference strategies (Distillation, Compilation, Sharding, etc.) coming soon!
-> [My profile on LeetGPU](https://leetgpu.com/profile?display_name=Sagor0078)
+
+- [Me on LeetGPU](https://leetgpu.com/profile?display_name=Sagor0078)
+- [Me On Deep-ML](https://www.deep-ml.com/profile/e5b1MI2S0KUZdV8fXCAoUvk8YPz1)
+- [Me On LeetCode](https://leetcode.com/u/sagor78/)
 
 ## External Learning Resources
 
